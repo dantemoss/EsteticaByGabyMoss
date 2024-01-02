@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { fira } from './ui/fonts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en `${Forum.classname} antialiased`">
-      <body className={inter.className}>{children}</body>
+      <body className={`${fira.className} antialiased`}>{children}</body>
     </html>
   )
 }
