@@ -1,9 +1,11 @@
 import TextWelcome from "@/components/WelcomeBanner/TextWelcome.jsx";
 import Navbar  from "../components/Navbar/Navbar.jsx";
 import Service from "@/components/OurServices/Services.jsx";
-import ProductsSponsors from "@/components/ProductsSponsors/ProductsSponsors.jsx";
 import FormMaps from "@/components/Maps/FormMaps.jsx";
 import Footer from "@/components/Footer/Footer.jsx";
+import Card from "@/components/Card/Card.jsx";
+
+
 
 
 
@@ -14,7 +16,8 @@ export default function Page() {
       <Navbar/>
       <TextWelcome/>
       <Service/>
-      <ProductsSponsors/>
+      <Card/>
+      
       <FormMaps/>
       <Footer/>
     </div>

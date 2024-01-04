@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <>
                 {/* Foooter */}
-                <section className="bg-white">
+                <section className="background-general">
                     <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
                         </nav>
@@ -28,7 +28,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <p className="mt-8 text-base leading-6 text-center text-gray-400">
-                            © 2024 Dante Moscoso, Made with ❤️.
+                            © 2024 Estetica GabyMoss, Made with ❤️ by Dante Moscoso.
                         </p>
                     </div>
                 </section>
