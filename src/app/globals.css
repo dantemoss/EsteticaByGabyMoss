@@ -31,3 +31,29 @@ html {
 
 
 
+body{
+  overflow-x: hidden;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .overflow-fixed {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .font-mini {
+    font-size: 12px;
+    color: black;
+    font: bold;
+  }
+}

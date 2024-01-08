@@ -3,8 +3,8 @@ import { inconsolata } from "@/app/ui/fonts";
 
 const Service = () => {
     return (
-        <div className="overflow-x: hidden;" >
-            <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+        <div className="overflow-fixed" >
+            <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] overflow-fixed">
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
@@ -15,7 +15,7 @@ const Service = () => {
                                 <h2 className="mb-3 text-2xl sm:text-3xl md:text-4xl font-bold leading-[1.2] text-dark">
                                     Lo que Ofrecemos
                                 </h2>
-                                <p className="text-sm sm:text-base text-body-color dark:text-dark-6">
+                                <p className="text-sm sm:text-base text-body-color dark:text-dark-6 font-mini">
                                     30 años de experiencia ininterrumpida avalado por un Posgrado en dermatocosmiatría de la{' '}
                                     <strong className="underline decoration-indigo-500 italic font-bold">Universidad Kennedy.</strong>
                                 </p>
