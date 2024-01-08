@@ -8,19 +8,21 @@ const Service = () => {
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
-                            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+                            <div className="mx-auto mb-6 sm:mb-12 max-w-[510px] text-center sm:mb-20">
                                 <span className="mb-2 block text-lg font-semibold text-primary">
                                     Nuestros Servicios
                                 </span>
-                                <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark  sm:text-4xl md:text-[40px]">
+                                <h2 className="mb-3 text-2xl sm:text-3xl md:text-4xl font-bold leading-[1.2] text-dark">
                                     Lo que Ofrecemos
                                 </h2>
-                                <p className="text-lg text-body-color dark:text-dark-6">
-                                    30 años de experiencia ininterrumpida avalado por un Posgrado en dermatocosmiatría de la <strong className="underline decoration-indigo-500 italic font-bold">Universidad Kennedy.</strong>
+                                <p className="text-base sm:text-lg text-body-color dark:text-dark-6">
+                                    30 años de experiencia ininterrumpida avalado por un Posgrado en dermatocosmiatría de la{' '}
+                                    <strong className="underline decoration-indigo-500 italic font-bold">Universidad Kennedy.</strong>
                                 </p>
                             </div>
                         </div>
                     </div>
+
 
                     <div className="-mx-4 flex flex-wrap">
                         <ServiceCard
