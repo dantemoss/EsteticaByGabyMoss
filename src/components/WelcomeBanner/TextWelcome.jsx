@@ -14,7 +14,7 @@ const TextWelcome = () => {
             </div>
 
             <div className="pr-40">
-                <h1 className="text-8xl flex flex-col gap-6 mr-20 mt-56 ">
+                <h1 className="text-8xl flex flex-col gap-6 mr-20 mt-56 text-size">
                     <span className= {`${forum.className} antialiased`}>Feel</span>
                     <span className= {`${forum.className} antialiased`}> renewed</span>
                     <span className= {`${forum.className} antialiased`}> beautiful</span>

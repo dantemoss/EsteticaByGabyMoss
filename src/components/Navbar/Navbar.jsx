@@ -1,5 +1,5 @@
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
-import { AcmeLogo } from "../Navbar/Logo.jsx";
+
 
 
 export default function App() {
@@ -26,26 +26,9 @@ export default function App() {
                 }}
             >
                 <NavbarBrand>
-                    <AcmeLogo />
+                    
                     <p className="font-bold text-inherit">GabyMoss Estetica</p>
                 </NavbarBrand>
-                <NavbarContent className="hidden sm:flex gap-4" justify="center">
-                    <NavbarItem>
-                        <Link color="foreground" href="#">
-                            Servicios
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem isActive>
-                        <Link href="#" aria-current="page">
-                            Productos
-                        </Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link color="foreground" href="#">
-                            Tratamientos
-                        </Link>
-                    </NavbarItem>
-                </NavbarContent>
                 <NavbarContent justify="end">
                     
                     <NavbarItem>

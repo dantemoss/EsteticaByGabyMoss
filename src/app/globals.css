@@ -30,3 +30,14 @@ html {
 
 
 
+
+@media only screen and (max-width: 768px) {
+  .hiddenMobile {
+    display: hidden;
+     } }
+
+@media only screen and (max-width: 768px) {
+      .text-size {
+        font-size: 1rem
+        ;
+         } }
