@@ -3,19 +3,19 @@ import { inconsolata } from "@/app/ui/fonts";
 
 const Service = () => {
     return (
-        <div >
+        <div className="overflow-x: hidden;" >
             <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
                 <div className="container mx-auto">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
-                            <div className="mx-auto mb-6 sm:mb-12 max-w-[510px] text-center sm:mb-20">
+                            <div className="mx-auto mb-6  max-w-[510px] text-center sm:mb-20">
                                 <span className="mb-2 block text-lg font-semibold text-primary">
                                     Nuestros Servicios
                                 </span>
                                 <h2 className="mb-3 text-2xl sm:text-3xl md:text-4xl font-bold leading-[1.2] text-dark">
                                     Lo que Ofrecemos
                                 </h2>
-                                <p className="text-base sm:text-lg text-body-color dark:text-dark-6">
+                                <p className="text-sm sm:text-base text-body-color dark:text-dark-6">
                                     30 años de experiencia ininterrumpida avalado por un Posgrado en dermatocosmiatría de la{' '}
                                     <strong className="underline decoration-indigo-500 italic font-bold">Universidad Kennedy.</strong>
                                 </p>
@@ -24,7 +24,8 @@ const Service = () => {
                     </div>
 
 
-                    <div className="-mx-4 flex flex-wrap">
+
+                    <div className="-mx-1 flex flex-wrap">
                         <ServiceCard
                             title="Higiene de piel"
                             details="Transforma tu piel con nuestro tratamiento de higiene facial. Elimina impurezas, revitaliza y logra una tez radiante. Descubre la frescura y calidad única de nuestra atención personalizada. Tu belleza merece lo mejor."
