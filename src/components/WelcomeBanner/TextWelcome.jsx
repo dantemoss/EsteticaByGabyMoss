@@ -14,10 +14,10 @@ const TextWelcome = () => {
                             Belleza y Bienestar | GabyMoss
                         </h3>
                         <p className="text-gray-800 text-2xl font-semibold sm:text-4xl">
-                            Realza tu Esplendor: Especialista en Cosmetología y Estética a tu Servicio
+                            Consultorio de Cosmiatria y Estética Aplicada
                         </p>
                         <p className="mt-3 text-black">
-                        Descubre tu Belleza Interior y Exterior en nuestro Consultorio de Cosmetología y Estética. Ofrecemos una amplia gama de servicios diseñados para realzar tu atractivo natural y revitalizar tu piel. Desde tratamientos faciales rejuvenecedores hasta técnicas avanzadas de cuidado corporal, la Doctora Gabriela Di Gangi te guiará en el viaje hacia una apariencia radiante y saludable. ¡Embellece tu vida y despierta tu mejor versión!
+                        Descubrí tu Belleza Interior y Exterior en nuestro Consultorio de Cosmetología y Estética. Brindamos una variada oferta de servicios diseñados para resaltar tu atractivo natural y revitalizar tu piel. Desde tratamientos faciales rejuvenecedores hasta técnicas avanzadas de cuidado corporal, la Doctora GabyMoss te acompañará en el camino hacia una apariencia radiante y saludable. ¡Embellecé tu vida y despertá tu mejor versión!
                         </p>
                         <a href="javascript:void(0)" className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium">
                             Agendar Turno

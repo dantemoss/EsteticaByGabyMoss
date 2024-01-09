@@ -5,39 +5,39 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@n
 export default function App() {
     return (
         <div className="background-general">
+            <div>
 
-            <Navbar
-                classNames={{
-                    item: [
-                        "flex",
-                        "relative",
-                        "h-full",
-                        "items-center",
-                        "data-[active=true]:after:content-['']",
-                        "data-[active=true]:after:absolute",
-                        "data-[active=true]:after:bottom-0",
-                        "data-[active=true]:after:left-0",
-                        "data-[active=true]:after:right-0",
-                        "data-[active=true]:after:h-[2px]",
-                        "data-[active=true]:after:rounded-[2px]",
-                        
-                        
-                    ],
-                }}
-            >
-                <NavbarBrand>
-                    
-                    <p className="font-bold text-inherit">GabyMoss Estetica</p>
-                </NavbarBrand>
-                <NavbarContent justify="end">
-                    
-                    <NavbarItem>
-                        <Button as={Link} color="primary" href="#" variant="flat">
-                            Contacto
-                        </Button>
-                    </NavbarItem>
-                </NavbarContent>
-            </Navbar>
+                <Navbar
+                    classNames={{
+
+                        item: [
+                            "flex",
+                            "relative",
+                            "h-full",
+                            "items-center",
+                            ],
+                    }}
+                >
+                    <NavbarBrand>
+
+                        <p className="font-bold text-inherit">GabyMoss Estetica</p>
+                    </NavbarBrand>
+                    <NavbarContent justify="end">
+
+                        <NavbarItem>
+                            <Button
+                                as={Link}
+                                className="bg-green-500 text-white rounded-full py-2 px-4"
+                                href="#"
+                                variant="flat">
+                                Contacto
+                            </Button>
+                        </NavbarItem>
+                    </NavbarContent>
+                </Navbar>
+            </div>
+
         </div>
+
     );
 }

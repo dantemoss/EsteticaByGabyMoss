@@ -52,8 +52,17 @@ body{
 
 @media only screen and (max-width: 600px) {
   .font-mini {
-    font-size: 12px;
+    font-size: 11px;
     color: black;
     font: bold;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  body {
+    overflow-x: hidden;
   }
 }

@@ -303,7 +303,7 @@ const Service = () => {
                         />
                         <ServiceCard
                             title="Tecnología Hifu 12D"
-                            details="Sumérgete en la innovación con nuestro tratamiento Hifu 12D. Esta avanzada tecnología no invasiva combate los signos del envejecimiento, mejorando la firmeza y elasticidad de la piel para un aspecto rejuvenecido."
+                            details="Explorá la innovación con nuestro tratamiento Hifu 12D. Esta avanzada tecnología no invasiva combate los signos del envejecimiento, mejorando la firmeza y elasticidad de la piel para un aspecto rejuvenecido."
                             icon={
                                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                                     width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
