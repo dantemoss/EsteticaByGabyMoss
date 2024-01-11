@@ -28,7 +28,7 @@ export default function App() {
                             <Button
                                 as={Link}
                                 className="bg-green-500 text-white rounded-full py-2 px-4"
-                                href="#"
+                                href="https://wa.me/5491125879086?text=Hola!%20me%20gustaria%20agendar%20un%20turno."
                                 variant="flat">
                                 Contacto
                             </Button>
