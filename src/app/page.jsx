@@ -17,7 +17,6 @@ export default function Page() {
       <TextWelcome/>
       <Service/>
       <Card/>
-      
       <FormMaps/>
       <Footer/>
     </div>
